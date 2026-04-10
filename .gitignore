@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Fichiers logs
+*.log
+
+# Variables d'environnement
+.env
+
+# Dossier coverage (tests)
+coverage/
+
+# Fichiers système Windows
+Thumbs.db
+
+# Fichiers système macOS
+.DS_Store
+
+# Dossier build
+dist/
