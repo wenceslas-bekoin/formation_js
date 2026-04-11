@@ -46,4 +46,11 @@ for(let letter of salutations2){
     console.log(letter);
 }
 
-Console.log("------------------------------");
+//05. Utilisation de la boucle do...while
+const maVision = "Je veux devenir un développeur web!";
+let k = 0;
+do{
+    console.log("Ma vision est : " + maVision);
+    k++;
+}while(k < 3);
+
