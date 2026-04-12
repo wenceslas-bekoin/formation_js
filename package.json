@@ -1,0 +1,26 @@
+{
+  "name": "formation_js",
+  "version": "1.0.0",
+  "description": "Ce dépôt contient mon parcours d'apprentissage en javascript et Node.js.\r Je début actuellement et documente ma progression.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenceslas-bekoin/formation_js.git"
+  },
+  "keywords": [],
+  "author": "Wenceslas Bekoin",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wenceslas-bekoin/formation_js/issues"
+  },
+  "homepage": "https://github.com/wenceslas-bekoin/formation_js#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
