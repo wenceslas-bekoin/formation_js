@@ -8,33 +8,8 @@ Je début actuellement et documente ma progression.
 - Construire plus tard des applications backend solides.
 - Développer une discipline  de travail propre et structurée.
 
-# Oganisation actuelle
-Formation_js/
-│   README.md
-│
-├───01-base
-│       opérateurs.js
-│       types-données.js
-│       variables.js
-│
-├───02-logique
-│       boucles.js
-│       conditions.js
-│
-├───03-fonctions
-│       fonctions-flechée.js
-│       fonctions-simples.js
-│       paramètres.js
-│
-├───04-objet-tableaux
-│       manipulation-array.js
-│       objets-litteraux.js
-│
-└───projets
-    ├───api-rest
-    ├───gestionnaire-de-contacts
-    ├───générateur-de-citations
-    └───todo-cli
+# Afficher resultat du code dans la console
+- nodemon fichier.js
 
 # Technologies utilisées
 - Node.js
