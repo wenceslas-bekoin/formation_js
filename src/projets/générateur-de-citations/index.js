@@ -1,5 +1,8 @@
 // Mini projet de générateur de citations dans la console.
+function start(){
+    console.log("Bienvenue dans  générateur de citations!");
 
+    //Tableaux des citations
 const citations = [
     "être sage, c'est de mériter le nom d'être humain. - Nichiren Daishonin.",
     "La vie est le plus grand de tous les biens. - Nihiren Daishonin.",
@@ -13,8 +16,11 @@ const citations = [
 ];
 
 //générer un indexe aléatoire 
-const indexAléatoire = Math.floor(Math.random() * citations.length);
+const index = Math.floor(Math.random() * citations.length);
 
 //afficher la citationaleatoire
 console.log("\n Citation du jour : \n");
-console.log(citations[indexAléatoire]);
+console.log(citations[index]);
+}
+//exportez le module
+module.exports = {run: start};
