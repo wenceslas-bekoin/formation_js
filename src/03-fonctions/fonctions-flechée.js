@@ -26,7 +26,7 @@ const diviser = (a, b) =>{
 console.log("\nLe résultat de la division est :");
 console.log(diviser(10, 5));
 
-//uutilisation des methodes string
+//utilisation des methodes string
 //1.toUpperCase()
 const projet = " Je souhaite  construire un projet qui aidera tout le Monde.";
 const resultat = projet.toUpperCase();
