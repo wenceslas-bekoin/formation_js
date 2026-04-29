@@ -54,10 +54,21 @@ const enfant = {
     age:10, 
     couleurYeux:"claire",
     présentationEnfant: function(){
-        return `${this.nom} ${this.prenom} il a ${this.age} ans, et a des yeux ${this.couleurYeux}.`
+        return (`${this.nom} ${this.prenom} il a ${this.age} ans, et a des yeux ${this.couleurYeux}.`).toUpperCase();
     }
 };
 //affichage enfant1
 console.log('\nMon fils:');
 console.log(enfant.présentationEnfant());
 
+//utilisation de toString dans les objets
+const enfant2 = {
+    nom : "Bekoin",
+    prenom: "Anon Vital",
+    age: 8,
+    couleurYeux: "bleu-claire"
+};
+const monTableau = Object.values(enfant2);
+let text = monTableau.toString();
+console.log('\nUtilisation de toString plus objet pour transformer en ceci:');
+console.log(text);
