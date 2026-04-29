@@ -1,0 +1,13 @@
+{
+  "name": "gestionnaire-de-contacts",
+  "version": "1.0.0",
+  "description": "Le projet montre comment fait un mini gestionnaire de contacts.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "wenceslas-bekoin",
+  "license": "ISC"
+}
