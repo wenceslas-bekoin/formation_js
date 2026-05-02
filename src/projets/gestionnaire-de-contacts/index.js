@@ -1,8 +1,6 @@
 const fs = require ("node:fs/promises");
 const readline = require ('node:readline/promises');
 const {stdin: input, stdout: output} = require('node:process');
-const { parse } = require("node:path");
-
 const FICHIER = "contacts.json";
 
 //charger les contacts existants
